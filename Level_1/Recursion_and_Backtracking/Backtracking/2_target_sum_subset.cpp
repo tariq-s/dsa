@@ -2,6 +2,10 @@
 using namespace std;
 void printTargetSumSubsets(vector<int> arr, int idx, string set, int sos, int tar)
 {
+    if (sos > tar)
+    {
+        return;
+    }
     if (idx == arr.size())
     {
         if (sos == tar)
