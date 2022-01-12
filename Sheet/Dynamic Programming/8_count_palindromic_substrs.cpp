@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-nt countSubstrings(string s)
+int countSubstrings(string s)
 {
     int count = 0;
     int n = s.size();
